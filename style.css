@@ -1,0 +1,36 @@
+* {
+    font-family: monospace;
+    margin: 0;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color: #7E57C2;
+    color: white;
+    padding: 10em;
+    bottom: 0;
+}
+
+a {
+    font-style: italic;
+    color: white;
+}
+
+.mainBody {
+    display: grid;
+    place-items: center;
+}
+
+.clickButton {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-color: #673AB7;
+    color: white;
+}
+
+.clickButton:hover {
+    background-color: #512DA8;
+    transition: 0.4s;
+}
